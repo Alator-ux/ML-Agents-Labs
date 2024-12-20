@@ -1,0 +1,47 @@
+{
+    "Manipulator": {
+        "checkpoints": [
+            {
+                "steps": 499994,
+                "file_path": "results\\ROBOT\\Manipulator\\Manipulator-499994.onnx",
+                "reward": 158.57083034719594,
+                "creation_time": 1734382075.7935493,
+                "auxillary_file_paths": [
+                    "results\\ROBOT\\Manipulator\\Manipulator-499994.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results\\ROBOT\\Manipulator\\Manipulator-999999.onnx",
+                "reward": 178.9717689881244,
+                "creation_time": 1734382950.3174744,
+                "auxillary_file_paths": [
+                    "results\\ROBOT\\Manipulator\\Manipulator-999999.pt"
+                ]
+            },
+            {
+                "steps": 1000005,
+                "file_path": "results\\ROBOT\\Manipulator\\Manipulator-1000005.onnx",
+                "reward": 178.98582408029282,
+                "creation_time": 1734382950.392712,
+                "auxillary_file_paths": [
+                    "results\\ROBOT\\Manipulator\\Manipulator-1000005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000005,
+            "file_path": "results\\ROBOT\\Manipulator.onnx",
+            "reward": 178.98582408029282,
+            "creation_time": 1734382950.392712,
+            "auxillary_file_paths": [
+                "results\\ROBOT\\Manipulator\\Manipulator-1000005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
